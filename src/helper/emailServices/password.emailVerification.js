@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt";
 import nodemailer from "nodemailer";
-import emailVerification from "../models/emailVerification.js";
-import userPasswordReset from "../models/passwordReset.js";
+import emailVerification from "../../models/emailVerification.js";
+import userPasswordReset from "../../models/passwordReset.js";
 import { v4 as uuidv4 } from "uuid";
 import dotenv from "dotenv";
 dotenv.config();

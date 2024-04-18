@@ -13,6 +13,8 @@ const userValidator = Joi.object({
   first_name: Joi.string().min(3).max(30).trim().required(),
   last_name: Joi.string().min(3).trim().max(30).required(),
   email: Joi.string().lowercase().email().trim().required(),
+  role: Joi.string().lowercase().trim(),
+
   password: Joi.string()
     .min(6)
     .pattern(new RegExp("^[a-zA-Z0-9]{3,30}$"))

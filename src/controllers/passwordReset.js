@@ -1,7 +1,7 @@
 import UserPasswordReset from "../models/passwordReset.js";
 import bcrypt from "bcrypt";
 import User from "../models/user.js";
-import { sendPasswordResetEmail } from "../helper/password.emailVerification.js";
+import { sendPasswordResetEmail } from "../helper/emailServices/password.emailVerification.js";
 
 export const passwordResetEmail = async (req, res) => {
   const { email } = req.body;
@@ -30,6 +30,7 @@ export const passwordResetEmail = async (req, res) => {
 
 export const resetPassword = async (req, res) => {
   const { userId, uniqueString, newPassword } = req.body;
+  console.log(userId, uniqueString, newPassword);
   try {
     const existingUser = await UserPasswordReset.findOne({ userId }).sort({
       createdAt: -1,

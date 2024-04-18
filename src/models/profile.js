@@ -20,7 +20,7 @@ const profileSchema = new mongoose.Schema(
       default: "https://iau.edu.lc/wp-content/uploads/2016/09/dummy-image.jpg",
     },
     wallet: {
-      type: mongoose.Types.Decimal128,
+      type: Number,
       default: 0,
     },
     phone_number: {

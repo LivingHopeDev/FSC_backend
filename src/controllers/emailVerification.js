@@ -2,7 +2,7 @@ import Email from "../models/emailVerification.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import User from "../models/user.js";
-import { sendVerificationEmail } from "../helper/password.emailVerification.js";
+import { sendVerificationEmail } from "../helper/emailServices/password.emailVerification.js";
 
 export const emailVerification = async (req, res) => {
   const { userId, uniqueString } = req.body;
