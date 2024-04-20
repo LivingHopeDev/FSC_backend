@@ -448,3 +448,9 @@
 {"contentLength":"168","level":"info","message":"HTTP Access Log","method":"POST","responseTime":80.365,"status":200,"timeStamp":"Fri Apr 19 2024 00:07:55 GMT+0100 (West Africa Standard Time)","url":"/issue"}
 {"contentLength":"226","level":"info","message":"HTTP Access Log","method":"GET","responseTime":10.759,"status":200,"timeStamp":"Fri Apr 19 2024 00:08:07 GMT+0100 (West Africa Standard Time)","url":"/issue"}
 {"contentLength":"226","level":"info","message":"HTTP Access Log","method":"GET","responseTime":14.769,"status":200,"timeStamp":"Fri Apr 19 2024 00:08:21 GMT+0100 (West Africa Standard Time)","url":"/issue"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"271","level":"info","message":"HTTP Access Log","method":"POST","responseTime":2165.324,"status":200,"timeStamp":"Fri Apr 19 2024 00:09:15 GMT+0100 (West Africa Standard Time)","url":"/issue"}
+{"contentLength":"449","level":"info","message":"HTTP Access Log","method":"GET","responseTime":27.352,"status":200,"timeStamp":"Fri Apr 19 2024 00:09:23 GMT+0100 (West Africa Standard Time)","url":"/issue"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"DELETE","responseTime":10.83,"status":200,"timeStamp":"Fri Apr 19 2024 00:09:39 GMT+0100 (West Africa Standard Time)","url":"/issue/6621a7ca3859e2a651f7b04c"}
+{"contentLength":"329","level":"info","message":"HTTP Access Log","method":"GET","responseTime":10.649,"status":200,"timeStamp":"Fri Apr 19 2024 00:09:45 GMT+0100 (West Africa Standard Time)","url":"/issue"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"DELETE","responseTime":824.896,"status":200,"timeStamp":"Fri Apr 19 2024 00:10:39 GMT+0100 (West Africa Standard Time)","url":"/issue/6621a81bdab526ec0ad6fcdd"}
