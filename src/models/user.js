@@ -27,6 +27,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       enum: ["owner", "agent", "manager"],
     },
+    availability: {
+      type: String,
+      enum: ["available", "hired"],
+    },
     isVerified: {
       type: Boolean,
       default: false,

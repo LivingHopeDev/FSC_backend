@@ -1,5 +1,5 @@
 import mongoose, { mongo } from "mongoose";
-const hiredManagerSchema = new mongoose.Schema({
+const fscCenterSchema = new mongoose.Schema({
   manager: {
     type: mongoose.Types.ObjectId,
     ref: "User",
@@ -8,7 +8,13 @@ const hiredManagerSchema = new mongoose.Schema({
     type: mongoose.Types.ObjectId,
     ref: "User",
   },
-  fsc_center: {
+  fsc_name: {
     type: String,
   },
+  fsc_location: {
+    type: mongoose.Types.ObjectId,
+    ref: "MappedLocation",
+  },
 });
+
+export default mongoose.model("FscCenter", fscCenterSchema);
