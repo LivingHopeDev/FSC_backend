@@ -542,3 +542,16 @@
 {"level":"info","message":"Server running on port 5000"}
 {"level":"info","message":"Server running on port 5000"}
 {"contentLength":"480","level":"info","message":"HTTP Access Log","method":"GET","responseTime":47.678,"status":200,"timeStamp":"Sat Apr 20 2024 05:52:20 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"149","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":19.955,"status":404,"timeStamp":"Sat Apr 20 2024 05:53:33 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"149","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":1.737,"status":404,"timeStamp":"Sat Apr 20 2024 05:53:43 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"480","level":"info","message":"HTTP Access Log","method":"GET","responseTime":30.492,"status":200,"timeStamp":"Sat Apr 20 2024 05:54:19 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"DELETE","responseTime":1.293,"status":401,"timeStamp":"Sat Apr 20 2024 05:54:30 GMT+0100 (West Africa Standard Time)","url":"/location/662347cb5ba705cd4390a721"}
+{"contentLength":"257","level":"info","message":"HTTP Access Log","method":"DELETE","responseTime":13.07,"status":200,"timeStamp":"Sat Apr 20 2024 05:54:37 GMT+0100 (West Africa Standard Time)","url":"/location/662347cb5ba705cd4390a721"}
+{"contentLength":"261","level":"info","message":"HTTP Access Log","method":"GET","responseTime":5.875,"status":200,"timeStamp":"Sat Apr 20 2024 05:54:44 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":1.013,"status":401,"timeStamp":"Sat Apr 20 2024 05:54:57 GMT+0100 (West Africa Standard Time)","url":"/location/662347cb5ba705cd4390a721"}
+{"contentLength":"36","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":20.393,"status":404,"timeStamp":"Sat Apr 20 2024 05:55:04 GMT+0100 (West Africa Standard Time)","url":"/location/662347cb5ba705cd4390a721"}
+{"contentLength":"258","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":10.68,"status":200,"timeStamp":"Sat Apr 20 2024 05:55:22 GMT+0100 (West Africa Standard Time)","url":"/location/662347c05ba705cd4390a719"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"GET","responseTime":7.013,"status":200,"timeStamp":"Sat Apr 20 2024 05:55:28 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"257","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":9.229,"status":200,"timeStamp":"Sat Apr 20 2024 05:55:42 GMT+0100 (West Africa Standard Time)","url":"/location/662347c05ba705cd4390a719"}
+{"contentLength":"261","level":"info","message":"HTTP Access Log","method":"GET","responseTime":6.117,"status":200,"timeStamp":"Sat Apr 20 2024 05:55:57 GMT+0100 (West Africa Standard Time)","url":"/location"}
