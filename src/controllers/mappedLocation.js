@@ -1,22 +1,7 @@
 import Location from "../models/mapped_location.js";
 export const createLocation = async (req, res) => {
-  const { country, state, address, local_government } = req.body;
   try {
-    const stateDetail = [];
-    const addressDetails = [];
-    addressDetails.push({
-      address,
-      local_government,
-    });
-    stateDetail.push({
-      state,
-      addresses: addressDetails,
-    });
-    const newLocation = new Location({
-      country,
-      states: stateDetail,
-    });
-    await newLocation.save();
+    const newLocation = await Location.create(req.body);
     res
       .status(201)
       .json({ message: "Location created succesfully", data: newLocation });
@@ -61,19 +46,11 @@ export const updateLocation = async (req, res) => {
   const { country, state, address, local_government } = req.body;
 
   try {
-    const stateDetail = [];
-    const addressDetails = [];
-    addressDetails.push({
-      address,
-      local_government,
-    });
-    stateDetail.push({
-      state,
-      addresses: addressDetails,
-    });
     const data = {
       country,
-      states: stateDetail,
+      state,
+      address,
+      local_government,
     };
     const location = await Location.findByIdAndUpdate(req.params.id, data, {
       new: true,

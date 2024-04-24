@@ -7,7 +7,8 @@ import { logger } from "./src/logger/logger.js";
 import cors from "cors";
 import { httpLogger } from "./src/logger/httpLogger.js";
 import { all_Routes_function } from "./src/index.js";
-
+import { notFound } from "./src/middlewares/errors/notFound.js";
+import { errorHandlerMiddleware } from "./src/middlewares/errors/errorHandler.js";
 const port = process.env.PORT || 3001;
 const app = express();
 
@@ -22,6 +23,8 @@ dbConnection(process.env.MONGO_URI);
 
 all_Routes_function(app);
 
+app.use(errorHandlerMiddleware);
+app.use(notFound);
 app.use(function (err, req, res, next) {
   if (err instanceof multer.MulterError) {
     res.status(400).send({ message: err.message });
@@ -30,10 +33,7 @@ app.use(function (err, req, res, next) {
   }
   next();
 });
-// app.use((err, req, res, next) => {
-//   logger.error(err.message);
-//   res.status(500).json({ error: err.message });
-// });
+
 app.listen(port, () => {
   logger.info(`Server running on port ${port}`);
 });

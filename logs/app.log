@@ -555,3 +555,434 @@
 {"contentLength":"262","level":"info","message":"HTTP Access Log","method":"GET","responseTime":7.013,"status":200,"timeStamp":"Sat Apr 20 2024 05:55:28 GMT+0100 (West Africa Standard Time)","url":"/location"}
 {"contentLength":"257","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":9.229,"status":200,"timeStamp":"Sat Apr 20 2024 05:55:42 GMT+0100 (West Africa Standard Time)","url":"/location/662347c05ba705cd4390a719"}
 {"contentLength":"261","level":"info","message":"HTTP Access Log","method":"GET","responseTime":6.117,"status":200,"timeStamp":"Sat Apr 20 2024 05:55:57 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"270","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1687.983,"status":201,"timeStamp":"Mon Apr 22 2024 18:11:18 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"482","level":"info","message":"HTTP Access Log","method":"GET","responseTime":9.955,"status":200,"timeStamp":"Mon Apr 22 2024 18:11:26 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"482","level":"info","message":"HTTP Access Log","method":"GET","responseTime":27.616,"status":200,"timeStamp":"Mon Apr 22 2024 18:18:31 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"482","level":"info","message":"HTTP Access Log","method":"GET","responseTime":28.944,"status":200,"timeStamp":"Mon Apr 22 2024 18:19:48 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"482","level":"info","message":"HTTP Access Log","method":"GET","responseTime":30.473,"status":200,"timeStamp":"Mon Apr 22 2024 18:20:31 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":786.41,"status":201,"timeStamp":"Mon Apr 22 2024 18:22:51 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":56.439,"status":201,"timeStamp":"Mon Apr 22 2024 18:23:28 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":58.048,"status":201,"timeStamp":"Mon Apr 22 2024 18:23:55 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":60.651,"status":201,"timeStamp":"Mon Apr 22 2024 18:31:26 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":60.181,"status":201,"timeStamp":"Mon Apr 22 2024 18:33:15 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"100","level":"info","message":"HTTP Access Log","method":"POST","responseTime":53.454,"status":500,"timeStamp":"Mon Apr 22 2024 18:34:27 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":55.408,"status":201,"timeStamp":"Mon Apr 22 2024 18:34:38 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":74.604,"status":201,"timeStamp":"Mon Apr 22 2024 18:34:53 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":62.135,"status":201,"timeStamp":"Mon Apr 22 2024 18:35:19 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":61.916,"status":201,"timeStamp":"Mon Apr 22 2024 18:35:36 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"70","level":"info","message":"HTTP Access Log","method":"POST","responseTime":55.117,"status":500,"timeStamp":"Mon Apr 22 2024 18:38:36 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"82","level":"info","message":"HTTP Access Log","method":"POST","responseTime":46.274,"status":500,"timeStamp":"Mon Apr 22 2024 18:38:54 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"82","level":"info","message":"HTTP Access Log","method":"POST","responseTime":49.002,"status":500,"timeStamp":"Mon Apr 22 2024 18:39:38 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":59.619,"status":201,"timeStamp":"Mon Apr 22 2024 18:55:48 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":64.44,"status":201,"timeStamp":"Mon Apr 22 2024 18:56:28 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":67.652,"status":201,"timeStamp":"Mon Apr 22 2024 18:58:40 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":57.668,"status":201,"timeStamp":"Mon Apr 22 2024 18:59:07 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":66.075,"status":201,"timeStamp":"Mon Apr 22 2024 18:59:40 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":72.579,"status":201,"timeStamp":"Mon Apr 22 2024 19:00:58 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":55.144,"status":201,"timeStamp":"Mon Apr 22 2024 19:03:17 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":56.522,"status":201,"timeStamp":"Mon Apr 22 2024 19:05:28 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":91.723,"status":201,"timeStamp":"Mon Apr 22 2024 19:06:33 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":53.117,"status":201,"timeStamp":"Mon Apr 22 2024 19:06:56 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":58.608,"status":201,"timeStamp":"Mon Apr 22 2024 19:07:35 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":65.228,"status":201,"timeStamp":"Mon Apr 22 2024 19:08:16 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":63.781,"status":201,"timeStamp":"Mon Apr 22 2024 19:11:46 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":66.626,"status":201,"timeStamp":"Mon Apr 22 2024 19:12:03 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"POST","responseTime":56.221,"status":201,"timeStamp":"Mon Apr 22 2024 19:14:56 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"352","level":"info","message":"HTTP Access Log","method":"POST","responseTime":712.93,"status":201,"timeStamp":"Mon Apr 22 2024 19:31:11 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"432","level":"info","message":"HTTP Access Log","method":"POST","responseTime":17.736,"status":201,"timeStamp":"Mon Apr 22 2024 19:31:42 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"584","level":"info","message":"HTTP Access Log","method":"POST","responseTime":22.377,"status":201,"timeStamp":"Mon Apr 22 2024 19:34:05 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"577","level":"info","message":"HTTP Access Log","method":"GET","responseTime":8.583,"status":200,"timeStamp":"Mon Apr 22 2024 19:34:53 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"674","level":"info","message":"HTTP Access Log","method":"POST","responseTime":79.026,"status":201,"timeStamp":"Mon Apr 22 2024 19:38:01 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"744","level":"info","message":"HTTP Access Log","method":"POST","responseTime":75.952,"status":201,"timeStamp":"Mon Apr 22 2024 19:41:40 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"745","level":"info","message":"HTTP Access Log","method":"GET","responseTime":31.182,"status":200,"timeStamp":"Mon Apr 22 2024 19:43:07 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"POST","responseTime":645.719,"status":201,"timeStamp":"Mon Apr 22 2024 19:46:15 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"959","level":"info","message":"HTTP Access Log","method":"POST","responseTime":84.071,"status":201,"timeStamp":"Mon Apr 22 2024 19:56:36 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":49.599,"status":404,"timeStamp":"Mon Apr 22 2024 20:01:10 GMT+0100 (West Africa Standard Time)","url":"/location/6626ad9d05468da59b1a8403"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":9.441,"status":404,"timeStamp":"Mon Apr 22 2024 20:03:45 GMT+0100 (West Africa Standard Time)","url":"/location/6626ad9d05468da59b1a8402"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"952","level":"info","message":"HTTP Access Log","method":"GET","responseTime":32.615,"status":200,"timeStamp":"Mon Apr 22 2024 20:07:15 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":34.039,"status":404,"timeStamp":"Mon Apr 22 2024 20:07:18 GMT+0100 (West Africa Standard Time)","url":"/location/6626ad9d05468da59b1a8402"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":13.109,"status":404,"timeStamp":"Mon Apr 22 2024 20:08:44 GMT+0100 (West Africa Standard Time)","url":"/location/66269a349396142252425a38"}
+{"contentLength":"76","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":21.506,"status":500,"timeStamp":"Mon Apr 22 2024 20:09:07 GMT+0100 (West Africa Standard Time)","url":"/location/66269a349396142252425a37"}
+{"contentLength":"76","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":14.442,"status":500,"timeStamp":"Mon Apr 22 2024 20:32:23 GMT+0100 (West Africa Standard Time)","url":"/location/66269a349396142252425a37"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"347","level":"info","message":"HTTP Access Log","method":"POST","responseTime":69.672,"status":201,"timeStamp":"Mon Apr 22 2024 20:37:24 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"1250","level":"info","message":"HTTP Access Log","method":"GET","responseTime":29.517,"status":200,"timeStamp":"Tue Apr 23 2024 06:59:53 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"347","level":"info","message":"HTTP Access Log","method":"POST","responseTime":212.866,"status":201,"timeStamp":"Tue Apr 23 2024 07:01:02 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"1548","level":"info","message":"HTTP Access Log","method":"GET","responseTime":6.96,"status":200,"timeStamp":"Tue Apr 23 2024 07:01:20 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1.15,"status":401,"timeStamp":"Tue Apr 23 2024 07:03:08 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"64","level":"info","message":"HTTP Access Log","method":"POST","responseTime":6.271,"status":500,"timeStamp":"Tue Apr 23 2024 07:03:22 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"160","level":"info","message":"HTTP Access Log","method":"POST","responseTime":51.722,"status":201,"timeStamp":"Tue Apr 23 2024 07:03:53 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"93","level":"info","message":"HTTP Access Log","method":"GET","responseTime":4.279,"status":500,"timeStamp":"Tue Apr 23 2024 07:14:16 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"GET","responseTime":33.521,"status":401,"timeStamp":"Tue Apr 23 2024 07:14:34 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"130","level":"info","message":"HTTP Access Log","method":"GET","responseTime":41.52,"status":200,"timeStamp":"Tue Apr 23 2024 07:14:43 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"158","level":"info","message":"HTTP Access Log","method":"GET","responseTime":28.921,"status":500,"timeStamp":"Tue Apr 23 2024 07:16:11 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"473","level":"info","message":"HTTP Access Log","method":"GET","responseTime":103.556,"status":200,"timeStamp":"Tue Apr 23 2024 07:16:34 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"744","level":"info","message":"HTTP Access Log","method":"GET","responseTime":49.908,"status":200,"timeStamp":"Tue Apr 23 2024 07:17:23 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"670","level":"info","message":"HTTP Access Log","method":"GET","responseTime":49.991,"status":200,"timeStamp":"Tue Apr 23 2024 07:18:34 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"252","level":"info","message":"HTTP Access Log","method":"POST","responseTime":52.812,"status":201,"timeStamp":"Tue Apr 23 2024 07:36:30 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"1751","level":"info","message":"HTTP Access Log","method":"GET","responseTime":10.985,"status":200,"timeStamp":"Tue Apr 23 2024 07:36:50 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"1009","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":52.885,"status":200,"timeStamp":"Tue Apr 23 2024 07:37:52 GMT+0100 (West Africa Standard Time)","url":"/location/66269a349396142252425a37"}
+{"contentLength":"240","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":8.189,"status":200,"timeStamp":"Tue Apr 23 2024 07:39:45 GMT+0100 (West Africa Standard Time)","url":"/location/662756ee1fe2155e2b75a7d2"}
+{"contentLength":"241","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":8.346,"status":200,"timeStamp":"Tue Apr 23 2024 07:40:05 GMT+0100 (West Africa Standard Time)","url":"/location/662756ee1fe2155e2b75a7d2"}
+{"contentLength":"240","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":10.907,"status":200,"timeStamp":"Tue Apr 23 2024 07:40:19 GMT+0100 (West Africa Standard Time)","url":"/location/662756ee1fe2155e2b75a7d2"}
+{"contentLength":"36","level":"info","message":"HTTP Access Log","method":"DELETE","responseTime":16.358,"status":404,"timeStamp":"Tue Apr 23 2024 07:41:26 GMT+0100 (West Africa Standard Time)","url":"/location/662347cb5ba705cd4390a721"}
+{"contentLength":"336","level":"info","message":"HTTP Access Log","method":"DELETE","responseTime":6.216,"status":200,"timeStamp":"Tue Apr 23 2024 07:41:31 GMT+0100 (West Africa Standard Time)","url":"/location/6626bc7438296e5e36817398"}
+{"contentLength":"1513","level":"info","message":"HTTP Access Log","method":"GET","responseTime":8.534,"status":200,"timeStamp":"Tue Apr 23 2024 07:41:41 GMT+0100 (West Africa Standard Time)","url":"/location"}
+{"contentLength":"670","level":"info","message":"HTTP Access Log","method":"GET","responseTime":24.607,"status":200,"timeStamp":"Tue Apr 23 2024 07:44:14 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"11","level":"info","message":"HTTP Access Log","method":"GET","responseTime":7.513,"status":200,"timeStamp":"Tue Apr 23 2024 07:44:39 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"160","level":"info","message":"HTTP Access Log","method":"POST","responseTime":16.885,"status":201,"timeStamp":"Tue Apr 23 2024 07:45:30 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"670","level":"info","message":"HTTP Access Log","method":"GET","responseTime":11.47,"status":200,"timeStamp":"Tue Apr 23 2024 07:45:34 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"160","level":"info","message":"HTTP Access Log","method":"POST","responseTime":7.723,"status":201,"timeStamp":"Tue Apr 23 2024 07:46:25 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"574","level":"info","message":"HTTP Access Log","method":"GET","responseTime":17.221,"status":200,"timeStamp":"Tue Apr 23 2024 07:46:34 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"358","level":"info","message":"HTTP Access Log","method":"GET","responseTime":176.104,"status":200,"timeStamp":"Tue Apr 23 2024 07:48:29 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"358","level":"info","message":"HTTP Access Log","method":"GET","responseTime":15.722,"status":200,"timeStamp":"Tue Apr 23 2024 07:48:33 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"11","level":"info","message":"HTTP Access Log","method":"GET","responseTime":30.143,"status":200,"timeStamp":"Tue Apr 23 2024 07:49:37 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"GET","responseTime":27.623,"status":200,"timeStamp":"Tue Apr 23 2024 07:50:09 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"GET","responseTime":26.202,"status":200,"timeStamp":"Tue Apr 23 2024 07:51:35 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"GET","responseTime":4.195,"status":401,"timeStamp":"Tue Apr 23 2024 07:54:16 GMT+0100 (West Africa Standard Time)","url":"/fsc/all"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"GET","responseTime":22.935,"status":200,"timeStamp":"Tue Apr 23 2024 07:54:24 GMT+0100 (West Africa Standard Time)","url":"/fsc/all"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"GET","responseTime":10.441,"status":200,"timeStamp":"Tue Apr 23 2024 07:54:38 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"160","level":"info","message":"HTTP Access Log","method":"POST","responseTime":39.943,"status":201,"timeStamp":"Tue Apr 23 2024 07:54:48 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"358","level":"info","message":"HTTP Access Log","method":"GET","responseTime":47.088,"status":200,"timeStamp":"Tue Apr 23 2024 07:54:51 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"358","level":"info","message":"HTTP Access Log","method":"GET","responseTime":12.785,"status":200,"timeStamp":"Tue Apr 23 2024 07:55:01 GMT+0100 (West Africa Standard Time)","url":"/fsc/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"358","level":"info","message":"HTTP Access Log","method":"GET","responseTime":41.928,"status":200,"timeStamp":"Tue Apr 23 2024 08:03:45 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"358","level":"info","message":"HTTP Access Log","method":"GET","responseTime":37.373,"status":200,"timeStamp":"Tue Apr 23 2024 08:12:20 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"56","level":"info","message":"HTTP Access Log","method":"POST","responseTime":592.501,"status":200,"timeStamp":"Tue Apr 23 2024 08:13:26 GMT+0100 (West Africa Standard Time)","url":"/user/register"}
+{"contentLength":"483","level":"info","message":"HTTP Access Log","method":"POST","responseTime":309.936,"status":200,"timeStamp":"Tue Apr 23 2024 08:14:11 GMT+0100 (West Africa Standard Time)","url":"/user/login"}
+{"contentLength":"495","level":"info","message":"HTTP Access Log","method":"GET","responseTime":15.834,"status":200,"timeStamp":"Tue Apr 23 2024 08:15:26 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"495","level":"info","message":"HTTP Access Log","method":"GET","responseTime":44.219,"status":200,"timeStamp":"Tue Apr 23 2024 08:16:10 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"495","level":"info","message":"HTTP Access Log","method":"GET","responseTime":44.373,"status":200,"timeStamp":"Tue Apr 23 2024 08:16:14 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"495","level":"info","message":"HTTP Access Log","method":"GET","responseTime":13.771,"status":200,"timeStamp":"Tue Apr 23 2024 08:16:15 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"495","level":"info","message":"HTTP Access Log","method":"GET","responseTime":88.567,"status":200,"timeStamp":"Tue Apr 23 2024 08:18:52 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"495","level":"info","message":"HTTP Access Log","method":"GET","responseTime":60.011,"status":200,"timeStamp":"Tue Apr 23 2024 08:19:10 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"495","level":"info","message":"HTTP Access Log","method":"GET","responseTime":45.487,"status":200,"timeStamp":"Tue Apr 23 2024 08:23:51 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"325","level":"info","message":"HTTP Access Log","method":"GET","responseTime":96.619,"status":500,"timeStamp":"Tue Apr 23 2024 08:43:57 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"505","level":"info","message":"HTTP Access Log","method":"GET","responseTime":45.012,"status":200,"timeStamp":"Tue Apr 23 2024 08:44:42 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"505","level":"info","message":"HTTP Access Log","method":"GET","responseTime":470.741,"status":200,"timeStamp":"Tue Apr 23 2024 08:45:15 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"505","level":"info","message":"HTTP Access Log","method":"GET","responseTime":44.139,"status":200,"timeStamp":"Tue Apr 23 2024 08:45:31 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"505","level":"info","message":"HTTP Access Log","method":"GET","responseTime":46.124,"status":200,"timeStamp":"Tue Apr 23 2024 08:45:35 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"505","level":"info","message":"HTTP Access Log","method":"GET","responseTime":46.185,"status":200,"timeStamp":"Tue Apr 23 2024 08:46:17 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"505","level":"info","message":"HTTP Access Log","method":"GET","responseTime":49.859,"status":200,"timeStamp":"Tue Apr 23 2024 08:46:31 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"505","level":"info","message":"HTTP Access Log","method":"GET","responseTime":49.817,"status":200,"timeStamp":"Tue Apr 23 2024 08:47:37 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"505","level":"info","message":"HTTP Access Log","method":"GET","responseTime":48.768,"status":200,"timeStamp":"Tue Apr 23 2024 08:48:00 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"502","level":"info","message":"HTTP Access Log","method":"GET","responseTime":50.131,"status":200,"timeStamp":"Tue Apr 23 2024 08:48:22 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"741","level":"info","message":"HTTP Access Log","method":"GET","responseTime":52.354,"status":200,"timeStamp":"Tue Apr 23 2024 08:53:26 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"614","level":"info","message":"HTTP Access Log","method":"GET","responseTime":47.079,"status":200,"timeStamp":"Tue Apr 23 2024 08:55:36 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"706","level":"info","message":"HTTP Access Log","method":"GET","responseTime":43.779,"status":200,"timeStamp":"Tue Apr 23 2024 08:59:34 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"1064","level":"info","message":"HTTP Access Log","method":"GET","responseTime":50.915,"status":200,"timeStamp":"Tue Apr 23 2024 09:43:41 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"706","level":"info","message":"HTTP Access Log","method":"GET","responseTime":63.851,"status":200,"timeStamp":"Tue Apr 23 2024 09:44:03 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"156","level":"info","message":"HTTP Access Log","method":"POST","responseTime":40.42,"status":404,"timeStamp":"Tue Apr 23 2024 10:14:24 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":24.543,"status":200,"timeStamp":"Tue Apr 23 2024 10:15:17 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":8.81,"status":200,"timeStamp":"Tue Apr 23 2024 10:15:36 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":7.488,"status":200,"timeStamp":"Tue Apr 23 2024 10:15:42 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":8.562,"status":200,"timeStamp":"Tue Apr 23 2024 10:16:01 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"156","level":"info","message":"HTTP Access Log","method":"POST","responseTime":6.113,"status":404,"timeStamp":"Tue Apr 23 2024 10:16:32 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":150.202,"status":200,"timeStamp":"Tue Apr 23 2024 10:18:27 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":29.39,"status":200,"timeStamp":"Tue Apr 23 2024 10:18:52 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":27.38,"status":200,"timeStamp":"Tue Apr 23 2024 10:19:15 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":30.013,"status":200,"timeStamp":"Tue Apr 23 2024 10:19:52 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":32.785,"status":200,"timeStamp":"Tue Apr 23 2024 10:21:07 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":31.044,"status":200,"timeStamp":"Tue Apr 23 2024 10:22:03 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"POST","responseTime":34.787,"status":200,"timeStamp":"Tue Apr 23 2024 10:22:23 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"68","level":"info","message":"HTTP Access Log","method":"POST","responseTime":30.09,"status":500,"timeStamp":"Tue Apr 23 2024 10:22:38 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"69","level":"info","message":"HTTP Access Log","method":"POST","responseTime":26.782,"status":500,"timeStamp":"Tue Apr 23 2024 10:22:54 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"78","level":"info","message":"HTTP Access Log","method":"POST","responseTime":38.251,"status":500,"timeStamp":"Tue Apr 23 2024 10:24:30 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"192","level":"info","message":"HTTP Access Log","method":"POST","responseTime":40.137,"status":200,"timeStamp":"Tue Apr 23 2024 10:25:21 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"contentLength":"192","level":"info","message":"HTTP Access Log","method":"POST","responseTime":13.785,"status":200,"timeStamp":"Tue Apr 23 2024 10:25:45 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"181","level":"info","message":"HTTP Access Log","method":"POST","responseTime":8.162,"status":404,"timeStamp":"Tue Apr 23 2024 22:49:38 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"contentLength":"86","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":22.215,"status":500,"timeStamp":"Tue Apr 23 2024 22:49:49 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"86","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":22.359,"status":500,"timeStamp":"Tue Apr 23 2024 22:50:25 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"68","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":32.062,"status":500,"timeStamp":"Tue Apr 23 2024 22:50:49 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"68","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":26.07,"status":500,"timeStamp":"Tue Apr 23 2024 22:51:30 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"68","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":33.335,"status":500,"timeStamp":"Tue Apr 23 2024 22:59:22 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"68","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":26.1,"status":500,"timeStamp":"Tue Apr 23 2024 23:01:26 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"127","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":38.408,"status":200,"timeStamp":"Tue Apr 23 2024 23:04:04 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"contentLength":"93","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":7.744,"status":500,"timeStamp":"Tue Apr 23 2024 23:04:51 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"92","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":27.54,"status":500,"timeStamp":"Tue Apr 23 2024 23:05:09 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"92","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":24.765,"status":500,"timeStamp":"Tue Apr 23 2024 23:05:29 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"52","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":25.973,"status":200,"timeStamp":"Tue Apr 23 2024 23:05:39 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"contentLength":"238","level":"info","message":"HTTP Access Log","method":"POST","responseTime":597.253,"status":201,"timeStamp":"Tue Apr 23 2024 23:05:59 GMT+0100 (West Africa Standard Time)","url":"/fsc"}
+{"contentLength":"127","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":20.711,"status":200,"timeStamp":"Tue Apr 23 2024 23:06:12 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":34.417,"status":200,"timeStamp":"Tue Apr 23 2024 23:07:52 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"contentLength":"80","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":17.834,"status":500,"timeStamp":"Tue Apr 23 2024 23:08:12 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"27","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":41.848,"status":200,"timeStamp":"Tue Apr 23 2024 23:12:04 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":19.319,"status":200,"timeStamp":"Tue Apr 23 2024 23:12:18 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":44.288,"status":200,"timeStamp":"Tue Apr 23 2024 23:20:07 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"27","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":42.201,"status":200,"timeStamp":"Tue Apr 23 2024 23:49:22 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":25.297,"status":200,"timeStamp":"Tue Apr 23 2024 23:50:53 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"contentLength":"27","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":21.232,"status":200,"timeStamp":"Tue Apr 23 2024 23:51:12 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"45","level":"info","message":"HTTP Access Log","method":"POST","responseTime":27.577,"status":404,"timeStamp":"Wed Apr 24 2024 00:07:38 GMT+0100 (West Africa Standard Time)","url":"/user/login"}
+{"contentLength":"56","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1153.97,"status":200,"timeStamp":"Wed Apr 24 2024 00:08:16 GMT+0100 (West Africa Standard Time)","url":"/user/register"}
+{"contentLength":"498","level":"info","message":"HTTP Access Log","method":"POST","responseTime":302.59,"status":200,"timeStamp":"Wed Apr 24 2024 00:09:06 GMT+0100 (West Africa Standard Time)","url":"/user/login"}
+{"contentLength":"50","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":7.346,"status":403,"timeStamp":"Wed Apr 24 2024 00:10:56 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66275f963b9c6d7af5c449a5"}
+{"contentLength":"58","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":6.538,"status":200,"timeStamp":"Wed Apr 24 2024 00:12:49 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66275f963b9c6d7af5c449a5"}
+{"contentLength":"50","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":4.122,"status":403,"timeStamp":"Wed Apr 24 2024 00:14:27 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66275f963b9c6d7af5c449a5"}
+{"date":"Wed Apr 24 2024 00:14:56 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: verifyTokenAndManager is not defined\nReferenceError: verifyTokenAndManager is not defined\n    at file:///C:/backend/FSC_backend/src/routes/fsc.js:23:39\n    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)","os":{"loadavg":[0,0,0],"uptime":1333365.765},"process":{"argv":["C:\\ProgramData\\nvm\\v20.12.1\\node.exe","C:\\backend\\FSC_backend\\app.js"],"cwd":"C:\\backend\\FSC_backend","execPath":"C:\\ProgramData\\nvm\\v20.12.1\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18262727,"external":20777928,"heapTotal":59613184,"heapUsed":29581032,"rss":83492864},"pid":14216,"uid":null,"version":"v20.12.1"},"stack":"ReferenceError: verifyTokenAndManager is not defined\n    at file:///C:/backend/FSC_backend/src/routes/fsc.js:23:39\n    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)","trace":[{"column":39,"file":"file:///C:/backend/FSC_backend/src/routes/fsc.js","function":null,"line":23,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":222,"method":"run","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ModuleLoader.import","line":323,"method":"import","native":false},{"column":7,"file":"node:internal/process/esm_loader","function":"async loadESM","line":28,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":113,"method":null,"native":false}]}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"50","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":23.578,"status":403,"timeStamp":"Wed Apr 24 2024 00:15:14 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66275f963b9c6d7af5c449a5"}
+{"contentLength":"498","level":"info","message":"HTTP Access Log","method":"POST","responseTime":380.042,"status":200,"timeStamp":"Wed Apr 24 2024 00:21:13 GMT+0100 (West Africa Standard Time)","url":"/user/login"}
+{"contentLength":"27","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":23.951,"status":200,"timeStamp":"Wed Apr 24 2024 00:21:32 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"25","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":43.335,"status":200,"timeStamp":"Wed Apr 24 2024 00:22:17 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66275f963b9c6d7af5c449a5"}
+{"contentLength":"25","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":13.933,"status":200,"timeStamp":"Wed Apr 24 2024 00:22:47 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66275f963b9c6d7af5c449a5"}
+{"contentLength":"56","level":"info","message":"HTTP Access Log","method":"POST","responseTime":491.614,"status":200,"timeStamp":"Wed Apr 24 2024 00:23:20 GMT+0100 (West Africa Standard Time)","url":"/user/register"}
+{"contentLength":"25","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":10.584,"status":200,"timeStamp":"Wed Apr 24 2024 00:26:57 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/662842e828b59e142f9ca763"}
+{"contentLength":"25","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":16.813,"status":200,"timeStamp":"Wed Apr 24 2024 00:27:16 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"25","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":37.478,"status":200,"timeStamp":"Wed Apr 24 2024 00:29:38 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"45","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":28.725,"status":200,"timeStamp":"Wed Apr 24 2024 00:36:46 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/662842e828b59e142f9ca763"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"44","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":27.584,"status":200,"timeStamp":"Wed Apr 24 2024 00:39:11 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"32","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":37.574,"status":200,"timeStamp":"Wed Apr 24 2024 00:41:10 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/662842e828b59e142f9ca763"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"41","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":28.479,"status":200,"timeStamp":"Wed Apr 24 2024 00:41:49 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":20.387,"status":200,"timeStamp":"Wed Apr 24 2024 00:42:17 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-manager/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"38","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":39.232,"status":200,"timeStamp":"Wed Apr 24 2024 00:44:03 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/662842e828b59e142f9ca763"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"37","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":40.328,"status":200,"timeStamp":"Wed Apr 24 2024 00:51:12 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66283f5f4dfe9b3361de3f3c"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"37","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":38.941,"status":200,"timeStamp":"Wed Apr 24 2024 00:53:30 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66283f5f4dfe9b3361de3f3c"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":31.236,"status":200,"timeStamp":"Wed Apr 24 2024 00:54:39 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66283f5f4dfe9b3361de3f3c"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":10.704,"status":200,"timeStamp":"Wed Apr 24 2024 01:06:19 GMT+0100 (West Africa Standard Time)","url":"/fsc/hire-agent/66283f5f4dfe9b3361de3f3c"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"GET","responseTime":4.118,"status":401,"timeStamp":"Wed Apr 24 2024 01:30:54 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Wed Apr 24 2024 01:31:27 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Wed Apr 24 2024 01:33:40 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Wed Apr 24 2024 01:35:28 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Wed Apr 24 2024 01:35:50 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Wed Apr 24 2024 01:36:23 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"47","level":"info","message":"HTTP Access Log","method":"GET","responseTime":18.872,"status":200,"timeStamp":"Wed Apr 24 2024 01:36:50 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"48","level":"info","message":"HTTP Access Log","method":"GET","responseTime":23.152,"status":200,"timeStamp":"Wed Apr 24 2024 01:38:41 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"contentLength":"398","level":"info","message":"HTTP Access Log","method":"GET","responseTime":18.84,"status":200,"timeStamp":"Wed Apr 24 2024 01:38:58 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"395","level":"info","message":"HTTP Access Log","method":"GET","responseTime":28.821,"status":200,"timeStamp":"Wed Apr 24 2024 01:39:24 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"149","level":"info","message":"HTTP Access Log","method":"GET","responseTime":4.197,"status":404,"timeStamp":"Wed Apr 24 2024 01:45:07 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker"}
+{"contentLength":"395","level":"info","message":"HTTP Access Log","method":"GET","responseTime":21.905,"status":200,"timeStamp":"Wed Apr 24 2024 01:45:28 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/managers"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"20","level":"info","message":"HTTP Access Log","method":"GET","responseTime":4.125,"status":404,"timeStamp":"Wed Apr 24 2024 02:02:15 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/managersa"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"GET","responseTime":7.526,"status":401,"timeStamp":"Wed Apr 24 2024 02:03:29 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"contentLength":"774","level":"info","message":"HTTP Access Log","method":"GET","responseTime":18.424,"status":200,"timeStamp":"Wed Apr 24 2024 02:03:35 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"782","level":"info","message":"HTTP Access Log","method":"GET","responseTime":23.936,"status":200,"timeStamp":"Wed Apr 24 2024 02:04:55 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"66","level":"info","message":"HTTP Access Log","method":"GET","responseTime":23.389,"status":500,"timeStamp":"Wed Apr 24 2024 02:07:26 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"626","level":"info","message":"HTTP Access Log","method":"GET","responseTime":23.495,"status":200,"timeStamp":"Wed Apr 24 2024 02:07:37 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"107","level":"info","message":"HTTP Access Log","method":"GET","responseTime":489.087,"status":500,"timeStamp":"Wed Apr 24 2024 02:08:45 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"107","level":"info","message":"HTTP Access Log","method":"GET","responseTime":25.837,"status":500,"timeStamp":"Wed Apr 24 2024 02:09:49 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"562","level":"info","message":"HTTP Access Log","method":"GET","responseTime":28.517,"status":200,"timeStamp":"Wed Apr 24 2024 02:11:57 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"626","level":"info","message":"HTTP Access Log","method":"GET","responseTime":26.2,"status":200,"timeStamp":"Wed Apr 24 2024 02:12:33 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"774","level":"info","message":"HTTP Access Log","method":"GET","responseTime":35.013,"status":200,"timeStamp":"Wed Apr 24 2024 02:13:14 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"626","level":"info","message":"HTTP Access Log","method":"GET","responseTime":23.205,"status":200,"timeStamp":"Wed Apr 24 2024 02:13:31 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"562","level":"info","message":"HTTP Access Log","method":"GET","responseTime":24.51,"status":200,"timeStamp":"Wed Apr 24 2024 02:13:48 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"594","level":"info","message":"HTTP Access Log","method":"GET","responseTime":27.372,"status":200,"timeStamp":"Wed Apr 24 2024 02:14:09 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"558","level":"info","message":"HTTP Access Log","method":"GET","responseTime":26.655,"status":200,"timeStamp":"Wed Apr 24 2024 02:14:19 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"526","level":"info","message":"HTTP Access Log","method":"GET","responseTime":25.077,"status":200,"timeStamp":"Wed Apr 24 2024 02:14:33 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"273","level":"info","message":"HTTP Access Log","method":"GET","responseTime":22.008,"status":200,"timeStamp":"Wed Apr 24 2024 02:15:11 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/managers"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"46","level":"info","message":"HTTP Access Log","method":"GET","responseTime":16.825,"status":200,"timeStamp":"Wed Apr 24 2024 02:17:10 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"526","level":"info","message":"HTTP Access Log","method":"GET","responseTime":24.428,"status":200,"timeStamp":"Wed Apr 24 2024 02:17:41 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"contentLength":"526","level":"info","message":"HTTP Access Log","method":"GET","responseTime":6.979,"status":200,"timeStamp":"Wed Apr 24 2024 02:17:57 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"526","level":"info","message":"HTTP Access Log","method":"GET","responseTime":29.635,"status":200,"timeStamp":"Wed Apr 24 2024 02:18:11 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"contentLength":"526","level":"info","message":"HTTP Access Log","method":"GET","responseTime":8.512,"status":200,"timeStamp":"Wed Apr 24 2024 02:18:33 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"273","level":"info","message":"HTTP Access Log","method":"GET","responseTime":26.468,"status":200,"timeStamp":"Wed Apr 24 2024 02:18:59 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/managers"}
+{"contentLength":"273","level":"info","message":"HTTP Access Log","method":"GET","responseTime":9.643,"status":200,"timeStamp":"Wed Apr 24 2024 02:19:06 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/managers"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"273","level":"info","message":"HTTP Access Log","method":"GET","responseTime":24.432,"status":200,"timeStamp":"Wed Apr 24 2024 02:19:28 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/managers"}
+{"date":"Wed Apr 24 2024 02:19:33 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: agentn is not defined\nReferenceError: agentn is not defined\n    at getAllAgent (file:///C:/backend/FSC_backend/src/controllers/fscWorker.js:30:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":1340842.781},"process":{"argv":["C:\\ProgramData\\nvm\\v20.12.1\\node.exe","C:\\backend\\FSC_backend\\app.js"],"cwd":"C:\\backend\\FSC_backend","execPath":"C:\\ProgramData\\nvm\\v20.12.1\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18271478,"external":20804278,"heapTotal":28049408,"heapUsed":25820304,"rss":63651840},"pid":6172,"uid":null,"version":"v20.12.1"},"stack":"ReferenceError: agentn is not defined\n    at getAllAgent (file:///C:/backend/FSC_backend/src/controllers/fscWorker.js:30:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":32,"file":"file:///C:/backend/FSC_backend/src/controllers/fscWorker.js","function":"getAllAgent","line":30,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"level":"info","message":"Server running on port 5000"}

@@ -83,7 +83,10 @@ export const verifyTokenAndOwner = (req, res, next) => {
         } else {
           res
             .status(403)
-            .json({ error: true, message: "You are not authorized!" });
+            .json({
+              error: true,
+              message: "You are not authorized! Must be an Owner",
+            });
         }
       })
       .catch((error) => {
