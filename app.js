@@ -9,9 +9,10 @@ import { httpLogger } from "./src/logger/httpLogger.js";
 import { all_Routes_function } from "./src/index.js";
 import { notFound } from "./src/middlewares/errors/notFound.js";
 import { errorHandlerMiddleware } from "./src/middlewares/errors/errorHandler.js";
+import { job } from "./src/helper/cronJob.js";
 const port = process.env.PORT || 3001;
 const app = express();
-
+job.start();
 let corsOptions = {
   origin: ["http://localhost:3000"],
 };

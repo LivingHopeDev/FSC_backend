@@ -64,6 +64,9 @@ export const hireManager = async (req, res) => {
   try {
     const fsc = await FscCenter.findOne({ owner: owner_id });
     const existinguser = await User.findById(manager_id);
+    if (!existinguser) {
+      return res.status(404).json({ message: "User not found" });
+    }
     if (!existinguser.isManager) {
       return res
         .status(200)
@@ -99,7 +102,11 @@ export const hireAgent = async (req, res) => {
   try {
     const fsc = await FscCenter.findOne({ manager: manager_id });
     const existinguser = await User.findById(agent_id);
-    if (!existinguser.isAgent) {
+    if (!existinguser) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    if (!existinguser?.isAgent) {
       return res
         .status(200)
         .json({ message: "Selected User is not an Agent!" });

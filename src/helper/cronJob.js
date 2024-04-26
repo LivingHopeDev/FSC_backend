@@ -1,9 +1,8 @@
-const https = require("https");
-const cron = require("cron");
+import https from "https";
+import cron from "cron";
+const serverUrl = "https://fsc-backend.onrender.com/userdata";
 
-const serverUrl = "https://webuyam.onrender.com/api/getData";
-
-const job = new cron.CronJob("*/14 * * * * ", () => {
+export const job = new cron.CronJob("*/14 * * * * ", () => {
   // Every 14 minutes
   console.log("restarting server....");
   // This will hit every api endpoint
@@ -23,5 +22,3 @@ const job = new cron.CronJob("*/14 * * * * ", () => {
       console.error(`Error during restart: ${error.message}`);
     });
 });
-
-module.exports = { job };
