@@ -1,6 +1,6 @@
 import https from "https";
 import cron from "cron";
-const serverUrl = "https://fsc-backend.onrender.com/userdata";
+const serverUrl = "https://fsc-backend.onrender.com/user/data";
 
 export const job = new cron.CronJob("*/14 * * * * ", () => {
   // Every 14 minutes

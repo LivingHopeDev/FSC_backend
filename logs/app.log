@@ -1020,3 +1020,146 @@
 {"date":"Fri Apr 26 2024 03:56:35 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: job is not a function\nTypeError: job is not a function\n    at file:///C:/backend/FSC_backend/app.js:15:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)","os":{"loadavg":[0,0,0],"uptime":1519465.281},"process":{"argv":["C:\\ProgramData\\nvm\\v20.12.1\\node.exe","C:\\backend\\FSC_backend\\app.js"],"cwd":"C:\\backend\\FSC_backend","execPath":"C:\\ProgramData\\nvm\\v20.12.1\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18262728,"external":20777919,"heapTotal":60633088,"heapUsed":34955656,"rss":77631488},"pid":15656,"uid":null,"version":"v20.12.1"},"stack":"TypeError: job is not a function\n    at file:///C:/backend/FSC_backend/app.js:15:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)","trace":[{"column":1,"file":"file:///C:/backend/FSC_backend/app.js","function":null,"line":15,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":222,"method":"run","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ModuleLoader.import","line":323,"method":"import","native":false},{"column":7,"file":"node:internal/process/esm_loader","function":"async loadESM","line":28,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":113,"method":null,"native":false}]}
 {"level":"info","message":"Server running on port 5000"}
 {"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Fri Apr 26 2024 12:37:25 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Fri Apr 26 2024 12:38:22 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Fri Apr 26 2024 12:40:35 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"90","level":"info","message":"HTTP Access Log","method":"GET","responseTime":807.069,"status":500,"timeStamp":"Fri Apr 26 2024 12:50:47 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"94","level":"info","message":"HTTP Access Log","method":"GET","responseTime":1054,"status":500,"timeStamp":"Fri Apr 26 2024 12:51:06 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":2789.205,"status":404,"timeStamp":"Fri Apr 26 2024 12:59:58 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":180.747,"status":404,"timeStamp":"Fri Apr 26 2024 13:00:11 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":179.022,"status":404,"timeStamp":"Fri Apr 26 2024 13:00:15 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":173.134,"status":404,"timeStamp":"Fri Apr 26 2024 13:01:30 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":168.899,"status":404,"timeStamp":"Fri Apr 26 2024 13:01:41 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":395.029,"status":404,"timeStamp":"Sat Apr 27 2024 10:45:28 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":172.546,"status":404,"timeStamp":"Tue Apr 30 2024 08:39:20 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":6.792,"status":404,"timeStamp":"Tue Apr 30 2024 08:40:45 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"contentLength":"498","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1223.535,"status":200,"timeStamp":"Tue Apr 30 2024 08:41:39 GMT+0100 (West Africa Standard Time)","url":"/user/login"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Tue Apr 30 2024 08:42:00 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Tue Apr 30 2024 08:46:40 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":38.32,"status":404,"timeStamp":"Tue Apr 30 2024 08:59:55 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":21.796,"status":404,"timeStamp":"Tue Apr 30 2024 09:01:34 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":7.434,"status":404,"timeStamp":"Tue Apr 30 2024 09:01:39 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"contentLength":"800","level":"info","message":"HTTP Access Log","method":"GET","responseTime":28.812,"status":200,"timeStamp":"Tue Apr 30 2024 09:01:46 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"827","level":"info","message":"HTTP Access Log","method":"GET","responseTime":43.676,"status":200,"timeStamp":"Tue Apr 30 2024 09:06:22 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"133","level":"info","message":"HTTP Access Log","method":"GET","responseTime":492.922,"status":200,"timeStamp":"Tue Apr 30 2024 09:07:51 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"307","level":"info","message":"HTTP Access Log","method":"GET","responseTime":41.648,"status":200,"timeStamp":"Tue Apr 30 2024 09:08:37 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"contentLength":"497","level":"info","message":"HTTP Access Log","method":"POST","responseTime":387.913,"status":200,"timeStamp":"Tue Apr 30 2024 09:10:23 GMT+0100 (West Africa Standard Time)","url":"/user/login"}
+{"contentLength":"471","level":"info","message":"HTTP Access Log","method":"GET","responseTime":21.234,"status":200,"timeStamp":"Tue Apr 30 2024 09:10:47 GMT+0100 (West Africa Standard Time)","url":"/fsc-worker/fsc-agents"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"POST","responseTime":550.355,"status":401,"timeStamp":"Wed May 01 2024 16:18:47 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"contentLength":"84","level":"info","message":"HTTP Access Log","method":"POST","responseTime":386.137,"status":400,"timeStamp":"Wed May 01 2024 16:19:01 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"contentLength":"30","level":"info","message":"HTTP Access Log","method":"POST","responseTime":4.649,"status":406,"timeStamp":"Wed May 01 2024 16:19:17 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"POST","responseTime":2.603,"status":401,"timeStamp":"Wed May 01 2024 16:19:42 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"contentLength":"50","level":"info","message":"HTTP Access Log","method":"POST","responseTime":52.965,"status":403,"timeStamp":"Wed May 01 2024 16:19:51 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"contentLength":"498","level":"info","message":"HTTP Access Log","method":"POST","responseTime":362.697,"status":200,"timeStamp":"Wed May 01 2024 16:20:14 GMT+0100 (West Africa Standard Time)","url":"/user/login"}
+{"contentLength":"251","level":"info","message":"HTTP Access Log","method":"POST","responseTime":162.776,"status":201,"timeStamp":"Wed May 01 2024 16:20:29 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"253","level":"info","message":"HTTP Access Log","method":"POST","responseTime":63.811,"status":201,"timeStamp":"Wed May 01 2024 16:21:26 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"253","level":"info","message":"HTTP Access Log","method":"POST","responseTime":57.206,"status":201,"timeStamp":"Wed May 01 2024 16:22:03 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"level":"info","message":"Server running on port 5000"}
+{"date":"Wed May 01 2024 16:38:49 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Email already exists\nError: Email already exists\n    at file:///C:/backend/FSC_backend/src/helper/validators/user.validator.js:38:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":1997196.781},"process":{"argv":["C:\\ProgramData\\nvm\\v20.12.1\\node.exe","C:\\backend\\FSC_backend\\app.js"],"cwd":"C:\\backend\\FSC_backend","execPath":"C:\\ProgramData\\nvm\\v20.12.1\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18291224,"external":20824024,"heapTotal":63410176,"heapUsed":28672720,"rss":88526848},"pid":7060,"uid":null,"version":"v20.12.1"},"stack":"Error: Email already exists\n    at file:///C:/backend/FSC_backend/src/helper/validators/user.validator.js:38:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"file:///C:/backend/FSC_backend/src/helper/validators/user.validator.js","function":null,"line":38,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"level":"info","message":"Server running on port 5000"}
+{"date":"Wed May 01 2024 16:39:49 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Email already exists\nError: Email already exists\n    at file:///C:/backend/FSC_backend/src/helper/validators/user.validator.js:39:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":1997257.046},"process":{"argv":["C:\\ProgramData\\nvm\\v20.12.1\\node.exe","C:\\backend\\FSC_backend\\app.js"],"cwd":"C:\\backend\\FSC_backend","execPath":"C:\\ProgramData\\nvm\\v20.12.1\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18291227,"external":20824027,"heapTotal":63148032,"heapUsed":29076480,"rss":88039424},"pid":11648,"uid":null,"version":"v20.12.1"},"stack":"Error: Email already exists\n    at file:///C:/backend/FSC_backend/src/helper/validators/user.validator.js:39:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"file:///C:/backend/FSC_backend/src/helper/validators/user.validator.js","function":null,"line":39,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"level":"info","message":"Server running on port 5000"}
+{"date":"Wed May 01 2024 16:40:13 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Email already exists\nError: Email already exists\n    at file:///C:/backend/FSC_backend/src/helper/validators/user.validator.js:39:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":1997280.593},"process":{"argv":["C:\\ProgramData\\nvm\\v20.12.1\\node.exe","C:\\backend\\FSC_backend\\app.js"],"cwd":"C:\\backend\\FSC_backend","execPath":"C:\\ProgramData\\nvm\\v20.12.1\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18282902,"external":20815702,"heapTotal":62885888,"heapUsed":28651408,"rss":87752704},"pid":9088,"uid":null,"version":"v20.12.1"},"stack":"Error: Email already exists\n    at file:///C:/backend/FSC_backend/src/helper/validators/user.validator.js:39:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"file:///C:/backend/FSC_backend/src/helper/validators/user.validator.js","function":null,"line":39,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"34","level":"info","message":"HTTP Access Log","method":"POST","responseTime":48.72,"status":400,"timeStamp":"Wed May 01 2024 16:44:28 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"contentLength":"253","level":"info","message":"HTTP Access Log","method":"POST","responseTime":26.772,"status":201,"timeStamp":"Wed May 01 2024 16:44:44 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"contentLength":"34","level":"info","message":"HTTP Access Log","method":"POST","responseTime":8.844,"status":400,"timeStamp":"Wed May 01 2024 16:44:47 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"23","level":"info","message":"HTTP Access Log","method":"POST","responseTime":22.573,"status":406,"timeStamp":"Wed May 01 2024 16:45:22 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"contentLength":"34","level":"info","message":"HTTP Access Log","method":"POST","responseTime":32.03,"status":400,"timeStamp":"Wed May 01 2024 16:45:31 GMT+0100 (West Africa Standard Time)","url":"/farmer/register"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"GET","responseTime":4.955,"status":401,"timeStamp":"Wed May 01 2024 16:51:07 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"contentLength":"248","level":"info","message":"HTTP Access Log","method":"GET","responseTime":23.419,"status":200,"timeStamp":"Wed May 01 2024 16:51:14 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"contentLength":"39","level":"info","message":"HTTP Access Log","method":"GET","responseTime":6.699,"status":200,"timeStamp":"Wed May 01 2024 16:51:25 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"GET","responseTime":20.28,"status":200,"timeStamp":"Wed May 01 2024 16:52:26 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"253","level":"info","message":"HTTP Access Log","method":"POST","responseTime":81.411,"status":201,"timeStamp":"Wed May 01 2024 17:04:16 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":3.661,"status":401,"timeStamp":"Wed May 01 2024 17:05:37 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326800ee214da0ed4743b9"}
+{"contentLength":"65","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":3.073,"status":500,"timeStamp":"Wed May 01 2024 17:05:45 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326800ee214da0ed4743b9"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"251","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":864.361,"status":200,"timeStamp":"Wed May 01 2024 17:06:04 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326800ee214da0ed4743b9"}
+{"contentLength":"251","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":7.43,"status":200,"timeStamp":"Wed May 01 2024 17:06:06 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326800ee214da0ed4743b9"}
+{"contentLength":"248","level":"info","message":"HTTP Access Log","method":"GET","responseTime":9.008,"status":200,"timeStamp":"Wed May 01 2024 17:06:15 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"248","level":"info","message":"HTTP Access Log","method":"GET","responseTime":28.828,"status":200,"timeStamp":"Wed May 01 2024 17:11:13 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"contentLength":"259","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":40.87,"status":200,"timeStamp":"Wed May 01 2024 17:11:43 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326800ee214da0ed4743b9"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"151","level":"info","message":"HTTP Access Log","method":"POST","responseTime":61.819,"status":500,"timeStamp":"Wed May 01 2024 17:19:21 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"contentLength":"254","level":"info","message":"HTTP Access Log","method":"POST","responseTime":20.096,"status":201,"timeStamp":"Wed May 01 2024 17:19:50 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"467","level":"info","message":"HTTP Access Log","method":"GET","responseTime":31.448,"status":200,"timeStamp":"Wed May 01 2024 17:20:14 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"contentLength":"50","level":"info","message":"HTTP Access Log","method":"GET","responseTime":6.53,"status":403,"timeStamp":"Wed May 01 2024 17:21:01 GMT+0100 (West Africa Standard Time)","url":"/farmer/all"}
+{"contentLength":"467","level":"info","message":"HTTP Access Log","method":"GET","responseTime":9.604,"status":200,"timeStamp":"Wed May 01 2024 17:22:31 GMT+0100 (West Africa Standard Time)","url":"/farmer/all"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"GET","responseTime":0.848,"status":401,"timeStamp":"Wed May 01 2024 17:24:09 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"contentLength":"50","level":"info","message":"HTTP Access Log","method":"GET","responseTime":4.23,"status":403,"timeStamp":"Wed May 01 2024 17:24:17 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"contentLength":"256","level":"info","message":"HTTP Access Log","method":"GET","responseTime":22.799,"status":200,"timeStamp":"Wed May 01 2024 17:24:49 GMT+0100 (West Africa Standard Time)","url":"/farmer"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"477","level":"info","message":"HTTP Access Log","method":"GET","responseTime":29.684,"status":200,"timeStamp":"Wed May 01 2024 17:26:54 GMT+0100 (West Africa Standard Time)","url":"/farmer/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"259","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":49.246,"status":200,"timeStamp":"Wed May 01 2024 17:29:01 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326800ee214da0ed4743b9"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"259","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":51.458,"status":200,"timeStamp":"Wed May 01 2024 17:30:20 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326800ee214da0ed4743b9"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"259","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":51.555,"status":200,"timeStamp":"Wed May 01 2024 17:31:02 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326800ee214da0ed4743b9"}
+{"contentLength":"262","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":20.666,"status":200,"timeStamp":"Wed May 01 2024 17:31:43 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326800ee214da0ed4743b9"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"259","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":53.658,"status":200,"timeStamp":"Wed May 01 2024 17:32:22 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326800ee214da0ed4743b9"}
+{"contentLength":"477","level":"info","message":"HTTP Access Log","method":"GET","responseTime":13.348,"status":200,"timeStamp":"Wed May 01 2024 17:33:10 GMT+0100 (West Africa Standard Time)","url":"/farmer/all"}
+{"contentLength":"46","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":13.728,"status":200,"timeStamp":"Wed May 01 2024 17:34:02 GMT+0100 (West Africa Standard Time)","url":"/farmer/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"30","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":48.414,"status":404,"timeStamp":"Wed May 01 2024 17:35:38 GMT+0100 (West Africa Standard Time)","url":"/farmer/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":53.341,"status":404,"timeStamp":"Wed May 01 2024 17:35:54 GMT+0100 (West Africa Standard Time)","url":"/farmer/66275f963b9c6d7af5c449a5"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"50","level":"info","message":"HTTP Access Log","method":"DELETE","responseTime":24.211,"status":403,"timeStamp":"Wed May 01 2024 17:40:35 GMT+0100 (West Africa Standard Time)","url":"/farmer/66275f963b9c6d7af5c449a5"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"DELETE","responseTime":11.643,"status":404,"timeStamp":"Wed May 01 2024 17:40:56 GMT+0100 (West Africa Standard Time)","url":"/farmer/66275f963b9c6d7af5c449a5"}
+{"contentLength":"477","level":"info","message":"HTTP Access Log","method":"GET","responseTime":25.461,"status":200,"timeStamp":"Wed May 01 2024 17:41:05 GMT+0100 (West Africa Standard Time)","url":"/farmer/all"}
+{"contentLength":"252","level":"info","message":"HTTP Access Log","method":"DELETE","responseTime":9.328,"status":200,"timeStamp":"Wed May 01 2024 17:41:17 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326ba6cfebbf61e70000c7"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"DELETE","responseTime":8.481,"status":404,"timeStamp":"Wed May 01 2024 17:41:21 GMT+0100 (West Africa Standard Time)","url":"/farmer/66326ba6cfebbf61e70000c7"}

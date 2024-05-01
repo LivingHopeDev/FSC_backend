@@ -81,12 +81,10 @@ export const verifyTokenAndOwner = (req, res, next) => {
         if (data.isOwner) {
           next();
         } else {
-          res
-            .status(403)
-            .json({
-              error: true,
-              message: "You are not authorized! Must be an Owner",
-            });
+          res.status(403).json({
+            error: true,
+            message: "You are not authorized! Must be an Owner",
+          });
         }
       })
       .catch((error) => {
@@ -101,6 +99,27 @@ export const verifyTokenAndAgent = (req, res, next) => {
     User.findOne({ _id: req.user.id })
       .then((data) => {
         if (data.isAgent) {
+          next();
+        } else {
+          res
+            .status(403)
+            .json({ error: true, message: "You are not authorized!" });
+        }
+      })
+      .catch((error) => {
+        res
+          .status(403)
+          .json({ error: true, message: "You are not authorized!" });
+      });
+  });
+};
+export const verifyManagerAndAdmin = (req, res, next) => {
+  verifyToken(req, res, () => {
+    User.findOne({ _id: req.user.id })
+      .then((data) => {
+        if (data.isAdmin) {
+          next();
+        } else if (data.isManager) {
           next();
         } else {
           res

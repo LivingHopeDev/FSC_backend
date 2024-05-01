@@ -3,6 +3,7 @@ import {
   getAllManager,
   getAllAgent,
   makeOrRevokeManagerOrAgent,
+  getWorkersInaFSC,
 } from "../controllers/fscWorker.js";
 import { verifyToken, verifyTokenAndAdmin } from "../middlewares/auth.js";
 
@@ -13,5 +14,6 @@ router.route("/agents").get(verifyToken, getAllAgent);
 router
   .route("/confirm-user-role/:id")
   .patch(verifyTokenAndAdmin, makeOrRevokeManagerOrAgent);
+router.route("/fsc-agents").get(verifyToken, getWorkersInaFSC);
 
 export default router;

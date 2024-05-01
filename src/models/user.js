@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema(
     },
     role: {
       type: String,
-      enum: ["owner", "agent", "manager"],
+      enum: ["owner", "agent", "manager", "partner"],
     },
     status: {
       type: String,

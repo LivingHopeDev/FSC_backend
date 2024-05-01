@@ -1,3 +1,4 @@
+import FsCenter from "../models/fsc_center.js";
 import User from "../models/user.js";
 
 export const getAllManager = async (req, res) => {
@@ -62,8 +63,32 @@ export const makeOrRevokeManagerOrAgent = async (req, res) => {
       .json({ error: error.message, message: "Internal Server Error" });
   }
 };
-export const getAgentsInaFSC = async (req, res) => {
+export const getWorkersInaFSC = async (req, res) => {
+  const ownerOrManager_id = req.user.id;
   try {
+    const fsc = await FsCenter.findOne({
+      $or: [{ manager: ownerOrManager_id }, { owner: ownerOrManager_id }],
+    })
+      .populate("manager", "first_name last_name role email")
+      .populate("agent", "first_name last_name role email");
+    if (!fsc) {
+      return res.status(404).json({ message: "User not found", data: null });
+    }
+
+    if (fsc.owner.equals(ownerOrManager_id)) {
+      // User is the owner, display manager and agents
+      const managerWithAgents = { manager: fsc.manager, agents: fsc.agent };
+      return res.status(200).json({
+        message: "List of the manager and the agents working for a FSC owner",
+        data: managerWithAgents,
+      });
+    } else if (fsc.manager.equals(ownerOrManager_id)) {
+      // User is the manager, display agents only
+      return res.status(200).json({
+        message: "List of agents working for a FSC manager",
+        data: fsc.agent,
+      });
+    }
   } catch (error) {
     res
       .status(500)
