@@ -31,7 +31,7 @@ export const sendPasswordResetEmail = async (
   res
 ) => {
   const uniqueString = uuidv4() + _id;
-  const redirectUrl = "https://www.fsc.com";
+  const redirectUrl = " http://localhost:3000";
 
   const mailOptions = {
     from: process.env.EMAIL,
@@ -83,7 +83,7 @@ export const sendVerificationEmail = async (
   res
 ) => {
   const uniqueString = uuidv4() + _id;
-  const redirectUrl = "https://www.fsc.com";
+  const redirectUrl = " http://localhost:3000";
 
   const mailOptions = {
     from: process.env.EMAIL,
