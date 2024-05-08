@@ -14,7 +14,7 @@ const port = process.env.PORT || 3001;
 const app = express();
 job.start();
 let corsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: ["http://localhost:3000", "https://fsc.proapp.ng"],
 };
 app.use(httpLogger);
 app.use(cors(corsOptions));
