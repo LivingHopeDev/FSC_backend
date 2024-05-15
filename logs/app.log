@@ -1286,3 +1286,77 @@
 {"contentLength":"73","level":"info","message":"HTTP Access Log","method":"POST","responseTime":39.712,"status":200,"timeStamp":"Wed May 08 2024 15:53:47 GMT+0100 (West Africa Standard Time)","url":"/wallet/verify-deposit"}
 {"contentLength":"322","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1091.862,"status":200,"timeStamp":"Wed May 08 2024 15:54:17 GMT+0100 (West Africa Standard Time)","url":"/wallet/verify-deposit"}
 {"contentLength":"73","level":"info","message":"HTTP Access Log","method":"POST","responseTime":5.105,"status":200,"timeStamp":"Wed May 08 2024 15:54:23 GMT+0100 (West Africa Standard Time)","url":"/wallet/verify-deposit"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"date":"Wed May 15 2024 14:51:15 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: FscCenter is not defined\nReferenceError: FscCenter is not defined\n    at file:///C:/backend/FSC_backend/src/middlewares/auth.js:131:21\n    at file:///C:/backend/FSC_backend/src/middlewares/auth.js:20:9\n    at C:\\backend\\FSC_backend\\node_modules\\jsonwebtoken\\verify.js:261:12\n    at getSecret (C:\\backend\\FSC_backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (C:\\backend\\FSC_backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at verifyToken (file:///C:/backend/FSC_backend/src/middlewares/auth.js:14:9)\n    at getUserFSC (file:///C:/backend/FSC_backend/src/middlewares/auth.js:129:3)\n    at Layer.handle [as handle_request] (C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\route.js:119:3)","os":{"loadavg":[0,0,0],"uptime":830585.312},"process":{"argv":["C:\\ProgramData\\nvm\\v20.12.1\\node.exe","C:\\backend\\FSC_backend\\app.js"],"cwd":"C:\\backend\\FSC_backend","execPath":"C:\\ProgramData\\nvm\\v20.12.1\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18280416,"external":20813216,"heapTotal":28807168,"heapUsed":26570616,"rss":68857856},"pid":15376,"uid":null,"version":"v20.12.1"},"stack":"ReferenceError: FscCenter is not defined\n    at file:///C:/backend/FSC_backend/src/middlewares/auth.js:131:21\n    at file:///C:/backend/FSC_backend/src/middlewares/auth.js:20:9\n    at C:\\backend\\FSC_backend\\node_modules\\jsonwebtoken\\verify.js:261:12\n    at getSecret (C:\\backend\\FSC_backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (C:\\backend\\FSC_backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at verifyToken (file:///C:/backend/FSC_backend/src/middlewares/auth.js:14:9)\n    at getUserFSC (file:///C:/backend/FSC_backend/src/middlewares/auth.js:129:3)\n    at Layer.handle [as handle_request] (C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\route.js:119:3)","trace":[{"column":21,"file":"file:///C:/backend/FSC_backend/src/middlewares/auth.js","function":null,"line":131,"method":null,"native":false},{"column":9,"file":"file:///C:/backend/FSC_backend/src/middlewares/auth.js","function":null,"line":20,"method":null,"native":false},{"column":12,"file":"C:\\backend\\FSC_backend\\node_modules\\jsonwebtoken\\verify.js","function":null,"line":261,"method":null,"native":false},{"column":14,"file":"C:\\backend\\FSC_backend\\node_modules\\jsonwebtoken\\verify.js","function":"getSecret","line":97,"method":null,"native":false},{"column":10,"file":"C:\\backend\\FSC_backend\\node_modules\\jsonwebtoken\\verify.js","function":"module.exports [as verify]","line":101,"method":"exports [as verify]","native":false},{"column":9,"file":"file:///C:/backend/FSC_backend/src/middlewares/auth.js","function":"verifyToken","line":14,"method":null,"native":false},{"column":3,"file":"file:///C:/backend/FSC_backend/src/middlewares/auth.js","function":"getUserFSC","line":129,"method":null,"native":false},{"column":5,"file":"C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":3,"file":"C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":119,"method":"dispatch","native":false}]}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Wed May 15 2024 14:52:30 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":null,"status":null,"timeStamp":"Wed May 15 2024 14:53:43 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":8.842,"status":403,"timeStamp":"Wed May 15 2024 14:55:00 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"GET","responseTime":4.619,"status":403,"timeStamp":"Wed May 15 2024 14:55:04 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"386","level":"info","message":"HTTP Access Log","method":"POST","responseTime":3051.799,"status":201,"timeStamp":"Wed May 15 2024 15:09:16 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"384","level":"info","message":"HTTP Access Log","method":"POST","responseTime":94.952,"status":201,"timeStamp":"Wed May 15 2024 15:10:57 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"1224","level":"info","message":"HTTP Access Log","method":"GET","responseTime":335.225,"status":200,"timeStamp":"Wed May 15 2024 15:11:39 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"3478","level":"info","message":"HTTP Access Log","method":"GET","responseTime":310.801,"status":200,"timeStamp":"Wed May 15 2024 15:14:15 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"3518","level":"info","message":"HTTP Access Log","method":"GET","responseTime":682.181,"status":200,"timeStamp":"Wed May 15 2024 15:16:35 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"5263","level":"info","message":"HTTP Access Log","method":"GET","responseTime":61.337,"status":200,"timeStamp":"Wed May 15 2024 15:18:02 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"3518","level":"info","message":"HTTP Access Log","method":"GET","responseTime":69.186,"status":200,"timeStamp":"Wed May 15 2024 15:18:28 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"3518","level":"info","message":"HTTP Access Log","method":"GET","responseTime":155.294,"status":200,"timeStamp":"Wed May 15 2024 15:18:38 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"3518","level":"info","message":"HTTP Access Log","method":"GET","responseTime":60.908,"status":200,"timeStamp":"Wed May 15 2024 15:19:00 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"3518","level":"info","message":"HTTP Access Log","method":"GET","responseTime":59.845,"status":200,"timeStamp":"Wed May 15 2024 15:19:23 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"5263","level":"info","message":"HTTP Access Log","method":"GET","responseTime":82.09,"status":200,"timeStamp":"Wed May 15 2024 15:19:47 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"3743","level":"info","message":"HTTP Access Log","method":"GET","responseTime":58.373,"status":200,"timeStamp":"Wed May 15 2024 15:20:41 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"3818","level":"info","message":"HTTP Access Log","method":"GET","responseTime":76.866,"status":200,"timeStamp":"Wed May 15 2024 15:21:53 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"3748","level":"info","message":"HTTP Access Log","method":"GET","responseTime":130.805,"status":200,"timeStamp":"Wed May 15 2024 15:22:30 GMT+0100 (West Africa Standard Time)","url":"/order/all"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}

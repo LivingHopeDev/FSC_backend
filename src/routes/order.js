@@ -1,5 +1,6 @@
 import { Router } from "express";
 import {
+  changeOrderStatus,
   createOrder,
   getAllOrders,
   getUserOrder,
@@ -7,14 +8,14 @@ import {
 import {
   verifyToken,
   verifyTokenAndAdmin,
-  verifyTokenAndAgent,
-  verifyTokenAndManager,
-  verifyTokenAndOwner,
+  getUserFSC,
+  verifyManagerAndAdmin,
 } from "../middlewares/auth.js";
 
 const router = Router();
 
-router.route("/").get(verifyToken, getUserOrder).post(verifyToken, createOrder);
+router.route("/").get(getUserFSC, getUserOrder).post(getUserFSC, createOrder);
+router.route("/:id/status").get(verifyManagerAndAdmin, changeOrderStatus);
 router.route("/all").get(verifyTokenAndAdmin, getAllOrders);
 
 export default router;

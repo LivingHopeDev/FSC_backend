@@ -10,6 +10,18 @@ const orderSchema = new mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "Product",
     },
+    fsc: {
+      type: mongoose.Types.ObjectId,
+      ref: "FscCenter",
+    },
+    purchasePrice: {
+      type: Number,
+      default: 0,
+    },
+    sellingPrice: {
+      type: Number,
+      default: 0,
+    },
     orderType: {
       type: String,
       enum: ["buy", "sell"],
@@ -21,6 +33,11 @@ const orderSchema = new mongoose.Schema(
     totalPrice: {
       type: Number,
       default: 0,
+    },
+    status: {
+      type: String,
+      enum: ["processing", "completed"],
+      default: "processing",
     },
   },
   { timestamps: true }

@@ -13,5 +13,5 @@ const userValidator = Joi.object({
   name: Joi.string().min(3).max(30).trim().required(),
   price: Joi.number().required(),
   description: Joi.string().trim().required(),
-  quantity: Joi.number().required(),
+  quantity: Joi.number(),
 });
