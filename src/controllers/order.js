@@ -2,6 +2,7 @@ import Product from "../models/product.js";
 import Order from "../models/order.js";
 import Profile from "../models/profile.js";
 import User from "../models/user.js";
+import Fsc_center from "../models/fsc_center.js";
 export const createOrder = async (req, res) => {
   const userId = req.user.id;
   const fscId = req.fsc._id;
@@ -9,7 +10,7 @@ export const createOrder = async (req, res) => {
 
   try {
     const product = await Product.findOne({ _id: productId });
-    const userProfile = await Profile.findOne({ user: userId });
+    const fsc = await Fsc_center.findOne({ owner: userId });
     if (!product) {
       return res
         .status(404)
@@ -18,10 +19,10 @@ export const createOrder = async (req, res) => {
     const productPrice = product.price; // this represent the current price at the point of buying or selling
     const totalPrice = productPrice * quantity;
     if (orderType === "buy") {
-      if (userProfile.wallet < totalPrice) {
+      if (fsc.wallet < totalPrice) {
         return res.status(402).json({ message: "Insufficient balance" });
       }
-      userProfile.wallet -= totalPrice;
+      fsc.wallet -= totalPrice;
       const newOrder = new Order({
         user: userId,
         product: productId,
@@ -32,7 +33,7 @@ export const createOrder = async (req, res) => {
         fsc: fscId,
       });
       const order = await newOrder.save();
-      await userProfile.save();
+      await fsc.save();
       res
         .status(201)
         .json({ message: "Buy Order placed successfully", data: order });
@@ -114,18 +115,34 @@ export const changeOrderStatus = async (req, res) => {
     const { status } = req.body;
 
     const order = await Order.findOne({ _id: orderId });
+
     if (!order) {
-      return res.status(404).json({ error: true, message: "Order not found" });
+      return res.status(404).json({ message: "Order not found", data: order });
     }
-    // Add the wallet
+
     if (order.status !== "processing") {
       return res
         .status(400)
         .json({ error: true, message: "Order is already completed" });
     }
 
-    order.status = status;
-    await order.save();
+    const fsc = await Fsc_center.findOne({ manager: req.user.id });
+
+    if (!fsc) {
+      return res
+        .status(404)
+        .json({ message: "Credentials not found", data: fsc });
+    }
+
+    if (order.orderType !== "sell") {
+      order.status = status;
+      await order.save();
+    } else {
+      fsc.wallet += order.totalPrice;
+      order.status = status;
+      await Promise.all([fsc.save(), order.save()]);
+    }
+
     res
       .status(200)
       .json({ message: "Order status updated to completed", data: order });

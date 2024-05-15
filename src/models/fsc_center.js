@@ -21,6 +21,10 @@ const fscCenterSchema = new mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "MappedLocation",
     },
+    wallet: {
+      type: Number,
+      default: 0,
+    },
   },
   { timestamps: true }
 );

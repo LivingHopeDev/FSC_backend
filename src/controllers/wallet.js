@@ -1,6 +1,7 @@
 import https from "https";
 import paymentVerification from "../models/paymentVerification.js";
 import Profile from "../models/profile.js";
+import Fsc_center from "../models/fsc_center.js";
 const paystackKey = process.env.PAYSTACK_SECRET_KEY;
 
 export const deposit = async (req, res) => {
@@ -56,11 +57,9 @@ export const verifyDeposit = async (req, res) => {
   const { reference } = req.body;
   const existingReference = await paymentVerification.findOne({ reference });
   if (existingReference) {
-    return res
-      .status(200)
-      .json({
-        message: "Incorrect details or transaction has already been completed",
-      });
+    return res.status(200).json({
+      message: "Incorrect details or transaction has already been completed",
+    });
   }
 
   const options = {
@@ -114,4 +113,30 @@ export const verifyDeposit = async (req, res) => {
       res.send(JSON.parse(error));
     });
   reqpaystack.end();
+};
+
+export const transferMoneyToFscWallet = async (req, res) => {
+  const userId = req.user.id;
+  const { amount } = req.body;
+  try {
+    const user = await Profile.findOne({ user: userId });
+    const senderFsc = await Fsc_center.findOne({ owner: userId });
+    if (!senderFsc) {
+      return res.status(404).json({
+        message: "No existing FSC: Choose your desired location",
+        data: senderFsc,
+      });
+    }
+    if (user.wallet < amount) {
+      return res.status(200).json({ message: "Insufficient balance" });
+    }
+    user.wallet -= amount;
+    senderFsc.wallet += amount;
+    await senderFsc.save();
+    await user.save();
+
+    res.status(200).json({ message: "Transfer completed", data: senderFsc });
+  } catch (error) {
+    res.status(500).json({ message: "Internal server error" });
+  }
 };
