@@ -7,6 +7,8 @@ import fscWorkerRoute from "./routes/fscWorker.js";
 import farmerRoute from "./routes/farmer.js";
 import orderRoute from "./routes/order.js";
 import walletRoute from "./routes/wallet.js";
+import storeRoute from "./routes/store.js";
+
 export const all_Routes_function = (app) => {
   app.use("/user", userRoute);
   app.use("/product", productRoute);
@@ -17,4 +19,5 @@ export const all_Routes_function = (app) => {
   app.use("/farmer", farmerRoute);
   app.use("/order", orderRoute);
   app.use("/wallet", walletRoute);
+  app.use("/store", storeRoute);
 };

@@ -1,68 +1,81 @@
 import Product from "../models/product.js";
 import Order from "../models/order.js";
-import Profile from "../models/profile.js";
-import User from "../models/user.js";
 import Fsc_center from "../models/fsc_center.js";
+import FscStore from "../models/fscStore.js";
+
 export const createOrder = async (req, res) => {
   const userId = req.user.id;
+  const fsc = req.fsc;
   const fscId = req.fsc._id;
   const { productId, orderType, quantity } = req.body;
 
   try {
     const product = await Product.findOne({ _id: productId });
-    const fsc = await Fsc_center.findOne({ owner: userId });
+
     if (!product) {
       return res
         .status(404)
         .json({ message: "Product not found", data: product });
     }
-    const productPrice = product.price; // this represent the current price at the point of buying or selling
-    const totalPrice = productPrice * quantity;
-    if (orderType === "buy") {
-      if (fsc.wallet < totalPrice) {
-        return res.status(402).json({ message: "Insufficient balance" });
-      }
-      fsc.wallet -= totalPrice;
-      const newOrder = new Order({
-        user: userId,
-        product: productId,
-        orderType,
-        quantity,
-        purchasePrice: productPrice,
-        totalPrice,
+
+    const productPrice = product.price;
+
+    let parsedQuantity;
+    try {
+      parsedQuantity = parseInt(quantity);
+    } catch (error) {
+      return res
+        .status(400)
+        .json({ message: "Invalid quantity format", error: error.message });
+    }
+
+    const totalPrice = productPrice * parsedQuantity;
+
+    const fscStore = await FscStore.findOne({
+      fsc: fscId,
+      product: productId,
+    });
+
+    if (!fscStore) {
+      const newFscStore = new FscStore({
         fsc: fscId,
-      });
-      const order = await newOrder.save();
-      await fsc.save();
-      res
-        .status(201)
-        .json({ message: "Buy Order placed successfully", data: order });
-    } else if (orderType === "sell") {
-      const userStoredProduct = await Order.findOne({
-        user: userId,
         product: productId,
+        quantity: orderType === "buy" ? parsedQuantity : 0,
       });
-      if (!userStoredProduct || userStoredProduct.quantity < quantity) {
+      await newFscStore.save();
+    } else {
+      fscStore.quantity =
+        orderType === "buy"
+          ? parseInt(fscStore.quantity) + parsedQuantity
+          : parseInt(fscStore.quantity) - parsedQuantity;
+
+      if (orderType === "buy" && fsc.wallet < totalPrice) {
         return res
           .status(400)
-          .json({ message: "Insufficient quantity for sell order" });
+          .json({ message: "Insufficient funds in FSC wallet" });
       }
-      const newOrder = new Order({
-        user: userId,
-        product: productId,
-        orderType,
-        quantity,
-        sellingPrice: productPrice,
-        totalPrice,
-        fsc: fscId,
-      });
-      const order = await newOrder.save();
-      res
-        .status(201)
-        .json({ message: "Sell Order placed successfully", data: order });
-    } else {
-      return res.status(400).json({ message: "Invalid order type" });
+
+      fsc.wallet -= orderType === "buy" ? parseInt(totalPrice) : 0;
+      await fscStore.save();
+      await fsc.save();
     }
+
+    const newOrder = new Order({
+      user: userId,
+      fsc: fscId,
+      product: productId,
+      orderType,
+      quantity: parsedQuantity,
+      purchasePrice: orderType === "buy" ? productPrice : 0,
+      sellingPrice: orderType === "sell" ? productPrice : 0,
+      totalPrice,
+    });
+
+    const savedOrder = await newOrder.save();
+
+    return res
+      .status(201)
+      .json({ message: "Order placed successfully", data: savedOrder });
   } catch (error) {
     res
       .status(500)
@@ -150,5 +163,31 @@ export const changeOrderStatus = async (req, res) => {
     res
       .status(500)
       .json({ error: error.message, message: "Internal Server error" });
+  }
+};
+
+export const getFscStoresByFsc = async (req, res) => {
+  const fscId = req.fsc._id;
+
+  try {
+    const storedPoducts = await FscStore.find({ fsc: fscId })
+      .populate("product")
+      .populate("fsc")
+      .sort({ createdAt: -1 });
+    if (storedPoducts.length === 0) {
+      return res.status(200).json({
+        message: "Not stored product!",
+        data: storedPoducts,
+      });
+    }
+
+    return res.status(200).json({
+      message: "storedPoducts retrieved successfully",
+      data: storedPoducts,
+    });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ error: error.message, message: "Internl Server error" });
   }
 };
