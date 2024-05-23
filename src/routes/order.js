@@ -1,5 +1,6 @@
 import { Router } from "express";
 import {
+  cancelOrder,
   changeOrderStatus,
   createOrder,
   getAllOrders,
@@ -17,8 +18,9 @@ import {
 const router = Router();
 
 router.route("/").get(getUserFSC, getUserOrder).post(getUserFSC, createOrder);
-router.route("/:id/status").patch(verifyTokenAndManager, changeOrderStatus);
+router.route("/:id/status").patch(getUserFSC, changeOrderStatus);
 router.route("/fsc-stored-products").patch(getUserFSC, getFscStoresByFsc);
+router.route("/:id/cancel").post(getUserFSC, cancelOrder);
 
 router.route("/all").get(verifyTokenAndAdmin, getAllOrders);
 

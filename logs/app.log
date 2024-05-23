@@ -1462,3 +1462,101 @@
 {"contentLength":"105","level":"info","message":"HTTP Access Log","method":"GET","responseTime":312.103,"status":500,"timeStamp":"Fri May 17 2024 13:17:37 GMT+0100 (West Africa Standard Time)","url":"/store/fsc-products"}
 {"level":"info","message":"Server running on port 5000"}
 {"contentLength":"819","level":"info","message":"HTTP Access Log","method":"GET","responseTime":49.82,"status":200,"timeStamp":"Fri May 17 2024 13:19:49 GMT+0100 (West Africa Standard Time)","url":"/store/fsc-products"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"819","level":"info","message":"HTTP Access Log","method":"GET","responseTime":44.64,"status":200,"timeStamp":"Fri May 17 2024 13:22:43 GMT+0100 (West Africa Standard Time)","url":"/store/fsc-products"}
+{"contentLength":"41","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":27.421,"status":404,"timeStamp":"Fri May 17 2024 13:40:06 GMT+0100 (West Africa Standard Time)","url":"/order/6644e6eb6820b00d4500d0f4/status"}
+{"contentLength":"819","level":"info","message":"HTTP Access Log","method":"GET","responseTime":14.292,"status":200,"timeStamp":"Fri May 17 2024 13:40:10 GMT+0100 (West Africa Standard Time)","url":"/store/fsc-products"}
+{"contentLength":"41","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":24.166,"status":404,"timeStamp":"Fri May 17 2024 13:40:16 GMT+0100 (West Africa Standard Time)","url":"/order/6644e6eb6820b00d4500d0f4/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"20","level":"info","message":"HTTP Access Log","method":"POST","responseTime":642.28,"status":404,"timeStamp":"Wed May 22 2024 14:55:29 GMT+0100 (West Africa Standard Time)","url":"/order/6644e6eb6820b00d4500d0f4/cancel"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"49","level":"info","message":"HTTP Access Log","method":"POST","responseTime":20.454,"status":401,"timeStamp":"Wed May 22 2024 14:56:10 GMT+0100 (West Africa Standard Time)","url":"/order/6644e6eb6820b00d4500d0f4/cancel"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":323.569,"status":404,"timeStamp":"Wed May 22 2024 14:56:20 GMT+0100 (West Africa Standard Time)","url":"/order/6644e6eb6820b00d4500d0f4/cancel"}
+{"contentLength":"3677","level":"info","message":"HTTP Access Log","method":"GET","responseTime":261.03,"status":200,"timeStamp":"Wed May 22 2024 14:56:36 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"POST","responseTime":694.167,"status":200,"timeStamp":"Wed May 22 2024 14:56:56 GMT+0100 (West Africa Standard Time)","url":"/order/664747854ad94c66d0903a23/cancel"}
+{"contentLength":"3673","level":"info","message":"HTTP Access Log","method":"GET","responseTime":14.269,"status":200,"timeStamp":"Wed May 22 2024 14:57:02 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"43","level":"info","message":"HTTP Access Log","method":"GET","responseTime":313.68,"status":200,"timeStamp":"Thu May 23 2024 03:07:10 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"43","level":"info","message":"HTTP Access Log","method":"GET","responseTime":119.794,"status":200,"timeStamp":"Thu May 23 2024 03:08:10 GMT+0100 (West Africa Standard Time)","url":"/store/fsc-products"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"46","level":"info","message":"HTTP Access Log","method":"POST","responseTime":717.67,"status":400,"timeStamp":"Thu May 23 2024 03:15:33 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"380","level":"info","message":"HTTP Access Log","method":"POST","responseTime":54.908,"status":201,"timeStamp":"Thu May 23 2024 03:16:05 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"date":"Thu May 23 2024 03:17:13 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading '_id')\nTypeError: Cannot read properties of undefined (reading '_id')\n    at changeOrderStatus (file:///C:/backend/FSC_backend/src/controllers/order.js:227:25)\n    at Layer.handle [as handle_request] (C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at file:///C:/backend/FSC_backend/src/middlewares/auth.js:54:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":1480140.015},"process":{"argv":["C:\\ProgramData\\nvm\\v20.12.1\\node.exe","C:\\backend\\FSC_backend\\app.js"],"cwd":"C:\\backend\\FSC_backend","execPath":"C:\\ProgramData\\nvm\\v20.12.1\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18290623,"external":20823423,"heapTotal":31428608,"heapUsed":27648368,"rss":69079040},"pid":4788,"uid":null,"version":"v20.12.1"},"stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at changeOrderStatus (file:///C:/backend/FSC_backend/src/controllers/order.js:227:25)\n    at Layer.handle [as handle_request] (C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at file:///C:/backend/FSC_backend/src/middlewares/auth.js:54:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":25,"file":"file:///C:/backend/FSC_backend/src/controllers/order.js","function":"changeOrderStatus","line":227,"method":null,"native":false},{"column":5,"file":"C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\backend\\FSC_backend\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":11,"file":"file:///C:/backend/FSC_backend/src/middlewares/auth.js","function":null,"line":54,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"41","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":242.484,"status":404,"timeStamp":"Thu May 23 2024 03:19:44 GMT+0100 (West Africa Standard Time)","url":"/order/6644e6eb6820b00d4500d0f4/status"}
+{"contentLength":"93","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":26.047,"status":500,"timeStamp":"Thu May 23 2024 03:19:54 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"388","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":91.954,"status":200,"timeStamp":"Thu May 23 2024 03:21:03 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"contentLength":"93","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":44.119,"status":500,"timeStamp":"Thu May 23 2024 03:21:59 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"388","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":55.349,"status":200,"timeStamp":"Thu May 23 2024 03:24:28 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"388","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":57.121,"status":200,"timeStamp":"Thu May 23 2024 03:25:04 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"contentLength":"388","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":26.438,"status":200,"timeStamp":"Thu May 23 2024 03:25:24 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"contentLength":"387","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":19.24,"status":200,"timeStamp":"Thu May 23 2024 03:26:36 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"contentLength":"53","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":7.16,"status":400,"timeStamp":"Thu May 23 2024 03:26:53 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"58","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":37.481,"status":400,"timeStamp":"Thu May 23 2024 03:30:45 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"58","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":38.179,"status":200,"timeStamp":"Thu May 23 2024 03:31:23 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"45","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":41.175,"status":200,"timeStamp":"Thu May 23 2024 03:31:50 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"contentLength":"387","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":35.666,"status":200,"timeStamp":"Thu May 23 2024 03:32:16 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":21.315,"status":200,"timeStamp":"Thu May 23 2024 03:32:22 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":18.488,"status":200,"timeStamp":"Thu May 23 2024 03:32:33 GMT+0100 (West Africa Standard Time)","url":"/order/664ea6e5a018fd3c4ec99bfd/status"}
+{"contentLength":"381","level":"info","message":"HTTP Access Log","method":"POST","responseTime":12.449,"status":201,"timeStamp":"Thu May 23 2024 03:33:29 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"45","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":8.757,"status":200,"timeStamp":"Thu May 23 2024 03:34:01 GMT+0100 (West Africa Standard Time)","url":"/order/664eaaf985ea1f4cd57a63af/status"}
+{"contentLength":"388","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":33.171,"status":200,"timeStamp":"Thu May 23 2024 03:34:16 GMT+0100 (West Africa Standard Time)","url":"/order/664eaaf985ea1f4cd57a63af/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"380","level":"info","message":"HTTP Access Log","method":"POST","responseTime":56.514,"status":201,"timeStamp":"Thu May 23 2024 03:36:50 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"40","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":8.261,"status":200,"timeStamp":"Thu May 23 2024 03:37:15 GMT+0100 (West Africa Standard Time)","url":"/order/664eaaf985ea1f4cd57a63af/status"}
+{"contentLength":"45","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":10.64,"status":200,"timeStamp":"Thu May 23 2024 03:37:33 GMT+0100 (West Africa Standard Time)","url":"/order/664eabc2b209dabae53d9c13/status"}
+{"contentLength":"387","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":40.341,"status":200,"timeStamp":"Thu May 23 2024 03:37:40 GMT+0100 (West Africa Standard Time)","url":"/order/664eabc2b209dabae53d9c13/status"}
+{"contentLength":"381","level":"info","message":"HTTP Access Log","method":"POST","responseTime":13.38,"status":201,"timeStamp":"Thu May 23 2024 03:38:53 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"388","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":20.566,"status":200,"timeStamp":"Thu May 23 2024 03:39:18 GMT+0100 (West Africa Standard Time)","url":"/order/664eac3db209dabae53d9c23/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"380","level":"info","message":"HTTP Access Log","method":"POST","responseTime":57.436,"status":201,"timeStamp":"Thu May 23 2024 03:46:59 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"387","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":20.936,"status":200,"timeStamp":"Thu May 23 2024 03:47:24 GMT+0100 (West Africa Standard Time)","url":"/order/664eae231cb6214402242054/status"}
+{"contentLength":"381","level":"info","message":"HTTP Access Log","method":"POST","responseTime":12.949,"status":201,"timeStamp":"Thu May 23 2024 03:47:48 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"149","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":20.213,"status":500,"timeStamp":"Thu May 23 2024 03:48:25 GMT+0100 (West Africa Standard Time)","url":"/order/664eae541cb6214402242060/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"381","level":"info","message":"HTTP Access Log","method":"POST","responseTime":739.509,"status":201,"timeStamp":"Thu May 23 2024 03:55:03 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"69","level":"info","message":"HTTP Access Log","method":"POST","responseTime":38.902,"status":500,"timeStamp":"Thu May 23 2024 04:00:54 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"97","level":"info","message":"HTTP Access Log","method":"POST","responseTime":40.543,"status":500,"timeStamp":"Thu May 23 2024 04:01:33 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"37","level":"info","message":"HTTP Access Log","method":"POST","responseTime":40.307,"status":404,"timeStamp":"Thu May 23 2024 04:06:05 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"37","level":"info","message":"HTTP Access Log","method":"POST","responseTime":12.14,"status":404,"timeStamp":"Thu May 23 2024 04:06:34 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"37","level":"info","message":"HTTP Access Log","method":"POST","responseTime":41.641,"status":404,"timeStamp":"Thu May 23 2024 04:12:12 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"380","level":"info","message":"HTTP Access Log","method":"POST","responseTime":27.997,"status":201,"timeStamp":"Thu May 23 2024 04:12:22 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"387","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":17.518,"status":200,"timeStamp":"Thu May 23 2024 04:13:11 GMT+0100 (West Africa Standard Time)","url":"/order/664eb41697cc31aff822ee47/status"}
+{"contentLength":"380","level":"info","message":"HTTP Access Log","method":"POST","responseTime":12.246,"status":201,"timeStamp":"Thu May 23 2024 04:13:28 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"387","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":23,"status":200,"timeStamp":"Thu May 23 2024 04:13:44 GMT+0100 (West Africa Standard Time)","url":"/order/664eb45897cc31aff822ee53/status"}
+{"contentLength":"46","level":"info","message":"HTTP Access Log","method":"POST","responseTime":9.422,"status":400,"timeStamp":"Thu May 23 2024 04:14:36 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"381","level":"info","message":"HTTP Access Log","method":"POST","responseTime":14.76,"status":201,"timeStamp":"Thu May 23 2024 04:14:56 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"388","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":15.635,"status":200,"timeStamp":"Thu May 23 2024 04:15:17 GMT+0100 (West Africa Standard Time)","url":"/order/664eb4b097cc31aff822ee62/status"}
+{"contentLength":"60","level":"info","message":"HTTP Access Log","method":"POST","responseTime":10.243,"status":400,"timeStamp":"Thu May 23 2024 04:15:42 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"381","level":"info","message":"HTTP Access Log","method":"POST","responseTime":12.802,"status":201,"timeStamp":"Thu May 23 2024 04:16:04 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"388","level":"info","message":"HTTP Access Log","method":"PATCH","responseTime":19.295,"status":200,"timeStamp":"Thu May 23 2024 04:16:17 GMT+0100 (West Africa Standard Time)","url":"/order/664eb4f497cc31aff822ee72/status"}
+{"level":"info","message":"Server running on port 5000"}
+{"contentLength":"37","level":"info","message":"HTTP Access Log","method":"POST","responseTime":48.247,"status":404,"timeStamp":"Thu May 23 2024 04:21:08 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"136","level":"info","message":"HTTP Access Log","method":"POST","responseTime":21.848,"status":500,"timeStamp":"Thu May 23 2024 04:21:17 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"380","level":"info","message":"HTTP Access Log","method":"POST","responseTime":805.245,"status":201,"timeStamp":"Thu May 23 2024 04:22:17 GMT+0100 (West Africa Standard Time)","url":"/order/"}
+{"contentLength":"35","level":"info","message":"HTTP Access Log","method":"POST","responseTime":5.454,"status":200,"timeStamp":"Thu May 23 2024 04:23:14 GMT+0100 (West Africa Standard Time)","url":"/order/664eb66826638ed4d9d64991/cancel"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"POST","responseTime":14.265,"status":200,"timeStamp":"Thu May 23 2024 04:23:21 GMT+0100 (West Africa Standard Time)","url":"/order/664eb66826638ed4d9d64991/cancel"}
+{"contentLength":"35","level":"info","message":"HTTP Access Log","method":"POST","responseTime":6,"status":200,"timeStamp":"Thu May 23 2024 04:24:08 GMT+0100 (West Africa Standard Time)","url":"/order/664eb66826638ed4d9d64991/cancel"}
